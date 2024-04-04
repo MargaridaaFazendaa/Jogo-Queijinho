@@ -10,26 +10,26 @@
 /*Lista*/
 ul {
     list-style-image: url("Imagens/queijo.png");
-    width: 50%;
-    height: 50%;
-    margin-left: 42%;
+    margin-left: 39%;
+    margin-top: -3%;
     font-family: Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 25px;
     text-align: letf;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #000;
-    color: #FFE600
+    color: #ffe500;
 }
 
 /*Imagem Texto Realizado por*/
 .group {
-    margin-left: 28%;
+    width: 50%;
+    height: 50%;
+    margin-left: 20%;
     margin-top: 2%;
 }
 
 /*Gif Rato*/
-.rato{
-    margin-left: 50%;
+.rato {
+    position: absolute;
+    left: 65%;
+    top: 81%
 }
-
