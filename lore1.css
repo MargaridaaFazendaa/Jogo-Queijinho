@@ -40,12 +40,12 @@
     white-space: nowrap;
     margin: 0 auto;
     letter-spacing: .15em;
-    animation: typing 3.5s steps(30, end) forwards, blink-caret .5s step-end infinite 3.5s;
+    animation: typing 1.5s steps(30, end) forwards, blink-caret .5s step-end infinite .5s;
     /* forwards mantém o estado final da animação */
 }
 
 .typewriter h1.delayed {
-    animation-delay: 3.5s;
+    animation-delay: 1.5s;
 }
 
 @keyframes typing {
@@ -73,7 +73,7 @@
 }
 
 
-
+/*Botões*/
 .button,
 .button1 {
     position: fixed;
