@@ -15,6 +15,14 @@
     margin: auto;
 }
 
+/*Imagem Rato*/
+.img-rato{
+    width: 20%;
+    z-index: 1;
+    position: absolute;
+	left: 40%;
+	top: 15%
+}
 
 /*Efeito Texto*/
 .typewriter {
