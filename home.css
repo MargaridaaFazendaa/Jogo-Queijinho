@@ -45,19 +45,18 @@
     margin: 2%;
     z-index: 1;
     cursor: pointer;
-    margin-top:2%;
 }
 
 .button {
-    top: 320px; /* Posiciona o topo do botão no meio vertical */
+    top: 50%; /* Posiciona o topo do botão no meio vertical */
 }
 
 .button2 {
-    top: 380px; /* Posiciona o topo do botão no meio vertical */
+    top: 60%; /* Posiciona o topo do botão no meio vertical */
 }
 
 .button3 {
-    top: 440px; /* Posiciona o topo do botão no meio vertical */
+    top: 70%; /* Posiciona o topo do botão no meio vertical */
 }
 
 .button a, .button2 a, .button3 a {
