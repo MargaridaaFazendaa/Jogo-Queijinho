@@ -1,9 +1,7 @@
 /*Botão Seta*/
 .Sair {
-    width: 50px;
+    width: 100px;
     float: left;
-    margin-left: 2%;
-    margin-top: 2%;
     cursor: pointer;
 }
 
@@ -23,7 +21,7 @@ ul {
 .group {
     width: 50%;
     height: 50%;
-    margin-left: 20%;
+    margin-left: 17%;
     margin-top: 2%;
 }
 
