@@ -6,109 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="game.css" />
     <link rel="stylesheet" type="text/css" href="creditos.css" />
+    <link rel="stylesheet" type="text/css" href="game.scss" />
     <link rel="icon" type="image/x-icon" href="Imagens/queijo.png">
     <title>Queijinho Cibersegurança</title>
 </head>
 
+
 <body style="background-color: #659664;">
 
     <a href="lore3.html">
-
         <img class="Sair" role="button" src="Imagens/left-arrow.png">
-
     </a>
 
+    <div class='speech-bubble'>Ajuda-me a reaver os meus Queijinhos!<br>Clica no botão e responde às diversas questões,<br>mas CUIDADO não erres na pergunta, pois posso perder o meu Queijo.</div>
+
+   <div>
+        <img class="ratoPC" src="Imagens/ratoPC.png">
+    </div>
+
     <div class="grupo1">
-        <div class="bloco1">
-            <img src='Imagens/amarelo.png'>
-        </div>
-
-        <div class="bloco2">
-            <img src='Imagens/roxo.png'>
-        </div>
-
-        <div class="bloco3">
-            <img src='Imagens/azul.png'>
-        </div>
-
-        <div class="bloco4">
-            <img src='Imagens/rosa.png'>
-        </div>
-
-        <div class="bloco5">
-            <img src='Imagens/amarelo.png'>
-        </div>
-
-        <div class="bloco6">
-            <img src='Imagens/roxo.png'>
-        </div>
-
+        <ul class='pie' id="pie" style="transform: rotate(225deg);">
+            <li id="1" class='slice-amarelo'>
+                <div class='amarelo'></div>
+            </li>
+            <li id="2" class='slice-roxo'>
+                <div class='roxo'></div>
+            </li>
+            <li id="3" class='slice-azul'>
+                <div class='azul'></div>
+            </li>
+            <li id="4" class='slice-rosa'>
+                <div class='rosa'></div>
+            </li>
+        </ul>
     </div>
 
-    <div class="grupo2">
-        <div class="bloco7">
-            <img src='Imagens/azul.png'>
-        </div>
-
-        <div class="bloco8">
-            <img src='Imagens/rosa.png'>
-        </div>
-
-        <div class="bloco9">
-            <img src='Imagens/amarelo.png'>
-        </div>
-
-        <div class="bloco10">
-            <img src='Imagens/roxo.png'>
-        </div>
-
-        <div class="bloco11">
-            <img src='Imagens/azul.png'>
+    <div ontouchstart="">
+        <div class="button">
+            <a onclick="rollDice()">Roll Dice</a>
         </div>
     </div>
 
-    <div class="grupo3">
-
-        <div class="bloco12">
-            <img src='Imagens/rosa.png'>
-        </div>
-
-        <div class="bloco13">
-            <img src='Imagens/amarelo.png'>
-        </div>
-
-        <div class="bloco14">
-            <img src='Imagens/roxo.png'>
-        </div>
-
-        <div class="bloco15">
-            <img src='Imagens/azul.png'>
-        </div>
-        
-        <div class="bloco16">
-            <img src='Imagens/rosa.png'>
-        </div>
-    </div>
-
-    <div class="grupo3">
-
-        <div class="bloco17">
-            <img src='Imagens/amarelo.png'>
-        </div>
-
-        <div class="bloco18">
-            <img src='Imagens/roxo.png'>
-        </div>
-
-        <div class="bloco19">
-            <img src='Imagens/azul.png'>
-        </div>
-
-        <div class="bloco20">
-            <img src='Imagens/rosa.png'>
-        </div>
-    </div>
-
+    <script>
+        function rollDice() {
+            var randomNumber = Math.floor(Math.random() * 6) + 1;
+            randomNumber = randomNumber + 4;
+            var currentTransform = document.getElementById("pie").style.transform;
+            var currentRotation = currentTransform ? parseInt(currentTransform.replace("rotate(", "").replace("deg)", "")) : 0;
+            var newRotation = currentRotation - (randomNumber * 90);
+            console.log(randomNumber - 4);
+            document.getElementById("pie").style.transform = "rotate(" + newRotation + "deg)";
+        }
+    </script>
 
 </body>
 
