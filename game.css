@@ -137,9 +137,7 @@
 
 
 .button {
-    right: 10px;
-    top: 80%;
-    /* Posição do botão no canto inferior direito */
+    margin-left: 40%;
 }
 
 .button a {
@@ -189,7 +187,7 @@
 
 .ratoPC {
     position: absolute;
-    margin-top: 29%;
+    margin-top: 21%;
     width: 350px;
 }
 
@@ -212,8 +210,8 @@ body {
     margin-top: 10%;
     margin-left: 5%;
     font-weight: bold;
-    margin-top: 15%;
-    margin-left: 8%;
+    margin-top: 12%;
+    margin-left: 7%;
 }
 
 
