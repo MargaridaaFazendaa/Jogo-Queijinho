@@ -10,7 +10,7 @@
     list-style: none;
     transition: all 1s;
     margin-top: 10%;
-    margin-left: 40%;
+    margin-left: 35%;
 }
 
 .slice-amarelo {
@@ -135,9 +135,10 @@
     cursor: pointer;
 }
 
-
 .button {
-    margin-left: 40%;
+    position: absolute;
+    margin-top: 42%;
+    margin-left: 34%;
 }
 
 .button a {
@@ -241,4 +242,47 @@ body {
     width: 0;
     height: .75em;
     transform: rotate(45deg) skewX(75deg);
+}
+
+.roxopreso {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 58%;
+}
+
+.rosapreso {
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 72%;
+}
+
+.azulpreso {
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 58%;
+}
+
+.amarelopreso {
+    position: absolute;
+    margin-top: 28%;
+    margin-left: 72%;
+}
+
+@font-face {
+    font-family: 'Rocher';
+    src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
+}
+
+@font-palette-values --Mint {
+    font-family: Rocher;
+    base-palette: 7;
+}
+
+.mint {
+    font-family: 'Rocher';
+    text-align: center;
+    font-size: 50px;
+    position: absolute;
+    top: 0;
+    left: 68%;
 }
