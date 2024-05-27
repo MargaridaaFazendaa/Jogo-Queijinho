@@ -124,3 +124,39 @@
         border-radius: 3vw;
     }
 }
+
+
+/* Fonte personalizada */
+@font-face {
+    font-family: 'Rocher';
+    src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
+}
+
+@font-palette-values --Mint {
+    font-family: Rocher;
+    base-palette: 7;
+}
+
+.mint4 {
+    font-family: 'Rocher';
+    text-align: center;
+    font-size: 50px;
+    position: absolute;
+    left: 49%;
+    top:3%;
+    transform: translateX(-50%);
+    color: white;
+    z-index: 2; 
+}
+
+.mint5 {
+    font-family: 'Rocher';
+    text-align: center;
+    font-size: 50px;
+    position: absolute;
+    left: 49%;
+    top:12%;
+    transform: translateX(-50%);
+    color: white;
+    z-index: 2; 
+}
