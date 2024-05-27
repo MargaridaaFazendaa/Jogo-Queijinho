@@ -293,3 +293,15 @@ body {
     float: left;
     cursor: pointer;
 }
+
+/*Lista*/
+ul {
+    list-style-image: url("Imagens/queijo.png");
+    margin-left: 39%;
+    margin-top: 0%;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: letf;
+    color: #f5ca5f;
+}
