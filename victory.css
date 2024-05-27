@@ -83,3 +83,32 @@
     -moz-border-radius: 5px;
     border-radius: 5px;
 }
+
+
+@font-face {
+    font-family: 'Rocher';
+    src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
+}
+
+@font-palette-values --Mint {
+    font-family: Rocher;
+    base-palette: 7;
+}
+
+.mint {
+    font-family: 'Rocher';
+    text-align: center;
+    font-size: 50px;
+    position: absolute;
+    top: 0;
+    left: 68%;
+}
+
+.mint2 {
+    font-family: 'Rocher';
+    text-align: center;
+    font-size: 80px;
+    position: absolute;
+    top: 5%;
+    left: 40%;
+}
