@@ -137,7 +137,7 @@
 
 .button {
     position: absolute;
-    margin-top: 42%;
+    margin-top: 30%;
     margin-left: 34%;
 }
 
@@ -287,3 +287,9 @@ body {
     left: 68%;
 }
 
+/*Botão Seta*/
+.Sair {
+    width: 100px;
+    float: top,left;
+    cursor: pointer;
+}
