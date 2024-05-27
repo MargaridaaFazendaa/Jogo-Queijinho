@@ -100,7 +100,7 @@
     font-size: 80px;
     position: absolute;
     top: 60%;
-    left: 45%;
+    left: 48%;
     transform: translateX(-50%);
     color: white;
     z-index: 2; 
@@ -108,9 +108,9 @@
 
 /* Imagens dos queijos */
 .amarelo1, .amarelo2, .rosa1, .rosa2, .azul1, .azul2, .roxo1, .roxo2 {
-    width: 50px; /* Tamanho menor */
+    width: 100px; 
     position: absolute;
-    z-index: 1; /* Certifica-se de que as imagens fiquem abaixo do texto */
+    z-index: 1; 
 }
 
 /* Posições e rotações específicas para cada imagem */
@@ -128,7 +128,7 @@
 
 .rosa1 {
     bottom: 15%;
-    left: 15%;
+    left: 20%;
     transform: rotate(20deg);
 }
 
@@ -140,7 +140,7 @@
 
 .azul1 {
     top: 30%;
-    left: 40%;
+    left: 25%;
     transform: rotate(30deg);
 }
 
@@ -151,13 +151,13 @@
 }
 
 .roxo1 {
-    bottom: 35%;
-    left: 50%;
+    bottom: 40%;
+    left: 10%;
     transform: rotate(40deg);
 }
 
 .roxo2 {
-    bottom: 10%;
+    bottom: 70%;
     right: 5%;
     transform: rotate(-45deg);
 }
