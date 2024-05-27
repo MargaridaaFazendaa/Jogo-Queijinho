@@ -1,7 +1,7 @@
 /*Botão Seta*/
 .Sair {
     width: 100px;
-    float: left;
+    float: top,left;
     cursor: pointer;
 }
 
@@ -9,20 +9,12 @@
 ul {
     list-style-image: url("Imagens/queijo.png");
     margin-left: 39%;
-    margin-top: -3%;
+    margin-top: 10%;
     font-family: Helvetica, sans-serif;
     font-weight: bold;
     font-size: 25px;
     text-align: letf;
-    color: #ffe500;
-}
-
-/*Imagem Texto Realizado por*/
-.group {
-    width: 50%;
-    height: 50%;
-    margin-left: 17%;
-    margin-top: 2%;
+    color: #f5ca5f;
 }
 
 /*Gif Rato*/
@@ -30,4 +22,29 @@ ul {
     position: absolute;
     left: 65%;
     top: 81%
+}
+
+
+/* Fonte personalizada */
+@font-face {
+    font-family: 'Rocher';
+    src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
+}
+
+@font-palette-values --Mint {
+    font-family: Rocher;
+    base-palette: 7;
+}
+
+/* Texto "Vitória!" */
+.mint3 {
+    font-family: 'Rocher';
+    text-align: center;
+    font-size: 80px;
+    position: absolute;
+    top: 5%;
+    left: 48%;
+    transform: translateX(-50%);
+    color: white;
+    z-index: 2; 
 }
