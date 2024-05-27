@@ -9,7 +9,7 @@
 ul {
     list-style-image: url("Imagens/queijo.png");
     margin-left: 39%;
-    margin-top: 10%;
+    margin-top: 0%;
     font-family: Helvetica, sans-serif;
     font-weight: bold;
     font-size: 25px;
@@ -40,9 +40,8 @@ ul {
 .mint3 {
     font-family: 'Rocher';
     text-align: center;
-    font-size: 80px;
+    font-size: 50px;
     position: absolute;
-    top: 5%;
     left: 48%;
     transform: translateX(-50%);
     color: white;
