@@ -9,7 +9,7 @@
     border-radius: 50%;
     list-style: none;
     transition: all 1s;
-    margin-top: 10%;
+    margin-top: 5%;
     margin-left: 35%;
 }
 
@@ -138,7 +138,7 @@
 .button {
     position: absolute;
     margin-top: 30%;
-    margin-left: 34%;
+    margin-left: 37%;
 }
 
 .button a {
@@ -188,7 +188,7 @@
 
 .ratoPC {
     position: absolute;
-    margin-top: 21%;
+    margin-top: 10%;
     width: 350px;
 }
 
@@ -208,10 +208,8 @@ body {
     background: #629bdd;
     font: 1em/1.5 Century Gothic, Verdana, sans-serif;
     text-align: center;
-    margin-top: 10%;
-    margin-left: 5%;
     font-weight: bold;
-    margin-top: 12%;
+    margin-top: -1%;
     margin-left: 7%;
 }
 
@@ -246,25 +244,25 @@ body {
 
 .roxopreso {
     position: absolute;
-    margin-top: 10%;
+    margin-top: 0%;
     margin-left: 58%;
 }
 
 .rosapreso {
     position: absolute;
-    margin-top: 12%;
+    margin-top: 0%;
     margin-left: 72%;
 }
 
 .azulpreso {
     position: absolute;
-    margin-top: 25%;
+    margin-top: 15%;
     margin-left: 58%;
 }
 
 .amarelopreso {
     position: absolute;
-    margin-top: 28%;
+    margin-top: 15%;
     margin-left: 72%;
 }
 
