@@ -1,3 +1,12 @@
+.triangulo{
+    position: absolute;
+    margin-top: 7%;
+    margin-left:38%;
+    width: 100px;
+    z-index: 1;
+
+}
+
 .pie {
     overflow: hidden;
     position: absolute;
